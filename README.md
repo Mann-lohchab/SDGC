@@ -88,19 +88,6 @@ pip install -r requirements.txt
 ```bash
 python experiments/run_table1.py
 ```
-
-### 3. Use on your own graph
-
-```python
-import networkx as nx
-from sdgc.algorithm import run_sdgc
-
-G = nx.petersen_graph()
-coloring = run_sdgc(G, alpha=3, beta=10, gamma=8, k=3, repair_iters=3)
-
-print(f"Colors used: {len(set(coloring.values()))}")
-```
-
 ---
 
 ## Parameters
@@ -154,8 +141,4 @@ If you use this code in your work, please cite:
 }
 ```
 
----
 
-## License
-
-MIT License. See [`LICENSE`](LICENSE) for details.
