@@ -1,7 +1,7 @@
 # SDGC — Separation-Driven Graph Coloring
 
 > A unified scoring-based heuristic for constraint-aware graph coloring.  
-> Companion code for the paper *"Separation-Driven Graph Coloring: A Unified Scoring Framework for Constraint-Aware Optimization"* — Lohchab & Yadav, SRM University Delhi NCR.
+> Companion code for the paper *"Separation-Driven Graph Coloring: A Unified Scoring Framework for Constraint-Aware Optimization"* — Mann Lohchab & Dr. R.P yadav, SRM University Delhi NCR.
 
 ---
 
